@@ -10,7 +10,7 @@
  http://www.springframework.org/schema/context 
  http://www.springframework.org/schema/context/spring-context.xsd 
  http://www.springframework.org/schema/tx 
- http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+ http://www.springframework.org/schema/tx/spring-tx.xsd">
  <!--  Enables the Spring MVC @Controller programming model 
   --> 
   <mvc:annotation-driven /> 
@@ -32,5 +32,11 @@
  <property name="suffix">
   <value>.jsp</value> 
   </property>
+  </bean>
+  
+  <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+
+  <property name="maxUploadSize" value="5000000" /> 
+  
   </bean>
   </beans>

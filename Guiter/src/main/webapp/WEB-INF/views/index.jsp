@@ -85,8 +85,9 @@ $(document).ready( function() {
 										<li class="menuItem"><a href="#aboutus">About Us</a></li>
 										<li class="menuItem"><a href="#specialties">Specialties</a></li>
 										<li class="menuItem"><a href="#gallery">Events Gallery</a></li>
-										<li class="menuItem"><a href="#feedback">Feedback</a></li>
+										<li class="menuItem"><a href="/saveuser">Feedback</a></li>
 										<li class="menuItem"><a href="#contact">Hire Us</a></li>
+										<li class="menuItem"><a href="/productdetails">Products</a></li>
 									</ul>
 								</div>
 							</div>

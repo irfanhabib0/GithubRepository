@@ -15,7 +15,7 @@ import com.niit.guitarbackend.model.Category;
 @Controller
 public class CategoryController {
 
-	@Autowired
+	@Autowired(required=true)
 	 CategoryDAO categoryDAO;
 	
 	@RequestMapping("/category")
